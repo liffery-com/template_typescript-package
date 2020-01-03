@@ -1,1 +1,1 @@
-// Add all global settings to jest and any other libs 
+// Add all global settings to jest and any other libs
