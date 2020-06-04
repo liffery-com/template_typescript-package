@@ -2,13 +2,8 @@ module.exports = {
   // Specifies the ESLint parser
   parser: '@typescript-eslint/parser',
 
-  // Which files to not lint
-  ignorePatterns: [
-    'src/domains/__mocks__/**/*',
-    'src/http/nodegen/**/*.*',
-    'src/services/image-write/**/*.*',
-    'src/events/rabbitMQ/*.*',
-  ],
+  // Which files/folders to not lint
+  ignorePatterns: [],
 
   parserOptions: {
     // Allows for the parsing of modern ECMAScript features
