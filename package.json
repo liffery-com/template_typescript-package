@@ -4,9 +4,6 @@
   "description": "A set of files to get moving for a typescript npm package, remove all not required",
   "licence": "MIT",
   "main": "./build/index.js",
-  "bin": {
-    "openapi-nodegen": "./build/cli.js"
-  },
   "scripts": {
     "install:githooks": "cp ./githooks/* .git/hooks",
     "test": "npm run lint && npm run test:unit",
